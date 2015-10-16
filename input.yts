@@ -1,0 +1,8 @@
+make_window
+
+*main
+  begin_render
+  print_mouse_position
+  end_render
+  wait 10
+  goto *main
